@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tom Segev <hi@tomsegev.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.26.0",

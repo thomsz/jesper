@@ -1,3 +1,3 @@
-export const sum = (a: number, b: number): number => {
-  return a + b;
-};
+export * from "@/define";
+export * from "@/utils";
+export { default } from "@/define";

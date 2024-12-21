@@ -4,9 +4,10 @@
   "description": "Generate dummy data based on real use cases - no schema required",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
     "lint": "eslint .",
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "Tom Segev <hi@tomsegev.com>",
@@ -24,5 +25,8 @@
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0"
   }
 }
